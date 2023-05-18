@@ -118,6 +118,9 @@ function App() {
       </div>
       <div>
       </div>
+      <div style={{display:"flex", width: "100%", justifyContent: "right"}}>
+        <p >Sebastian Quiroz Cervantes</p>
+      </div>
       <Modal show={loadModal} fullscreen={'md-down'} >
         <Spinner animation="grow" variant="danger" />
         <p style={{fontSize:"30px", marginBottom: 0}}>Cargando </p>
